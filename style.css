@@ -39,6 +39,15 @@ header nav a:hover {
 }
 
 /* Main Section */
+a {
+  color:white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: aqua;
+}
+
 main {
   padding: 2rem;
   max-width: 800px;
