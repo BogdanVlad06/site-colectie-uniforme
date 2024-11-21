@@ -49,6 +49,14 @@ main h2 {
   color: #f4f4f4;
   margin-bottom: 1rem;
 }
+.section-image {
+  display: block;
+  max-width: 75%; /* Ensures the image doesn't overflow the section */
+  height: auto; /* Maintains the aspect ratio */
+  margin: 1rem auto; /* Centers the image with some space above and below */
+  border: 2px solid #cccccc4f; /* Optional border */
+  border-radius: 8px; /* Optional rounded corners */
+}
 
 /* Gallery */
 .gallery {
