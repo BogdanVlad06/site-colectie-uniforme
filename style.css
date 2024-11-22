@@ -21,10 +21,14 @@ header h1 {
 }
 
 header nav {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
   margin-top: 1rem;
 }
 
 header nav a {
+  display: inline-block;
   color: #f4f4f4;
   text-decoration: none;
   margin: 0 15px;
@@ -36,6 +40,19 @@ header nav a {
 
 header nav a:hover {
   background: #555;
+}
+/* Responsive: Vertical Navigation (Smaller Screens) */
+@media (max-width: 768px) { /* Adjust breakpoint if needed */
+  header nav {
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center buttons */
+    gap: 5px; /* Reduce spacing between buttons */
+  }
+
+  header nav a {
+    width: 40%;/* Make buttons almost full width */
+    margin: 0 auto; /* Center buttons on the screen */
+  }
 }
 
 /* Main Section */
