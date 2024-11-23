@@ -1,7 +1,6 @@
-function setup() {
-  createCanvas(400, 400);
-}
-
-function draw() {
-  background(220);
+function toggleDescription(imageElement) {
+  const description = imageElement.nextElementSibling;
+  if (description) {
+      description.classList.toggle('show');
+  }
 }
