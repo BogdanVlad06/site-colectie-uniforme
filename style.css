@@ -84,7 +84,11 @@ main h2 {
   border-radius: 8px; /* Optional rounded corners */
 }
 
-/* Gallery */
+.indent {
+  text-indent: 30px;
+}
+
+/* Interactive image (description) for gallery */
 .gallery {
   display: flex;
   flex-wrap: wrap;
