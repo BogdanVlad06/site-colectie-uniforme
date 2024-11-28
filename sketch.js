@@ -4,8 +4,7 @@ function toggleDescription(imageElement) {
       description.classList.toggle('show');
   }
 }
-// Display the modal when the page loads
-// Check if the modal has been shown before
+// Check if the modal has been shown before Display the modal when the page loads
 window.onload = function () {
   const modal = document.getElementById("eventModal");
   const modalShown = sessionStorage.getItem("modalShown");
