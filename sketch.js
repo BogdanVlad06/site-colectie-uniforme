@@ -6,6 +6,8 @@ function toggleDescription(imageElement) {
 }
 // Check if the modal has been shown before Display the modal when the page loads
 window.onload = function () {
+  console.log("Modal logic executed");
+
   const modal = document.getElementById("eventModal");
   const modalShown = sessionStorage.getItem("modalShown");
 
