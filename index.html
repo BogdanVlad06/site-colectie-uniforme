@@ -3,28 +3,33 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Uniforme militare RSR</title>
-
     <link rel="stylesheet" type="text/css" href="style.css">
-
     <script src="libraries/p5.min.js"></script>
   </head>
 
   <body>
     <header>
-        <h1> Armata Republicii Socialiste România </h1>
-        <p> O expoziție virtuală a uniformelor militare din perioada RSR</p>
+        <h1 id="header-title_index">Armata Republicii Socialiste România</h1>
+        <p id="header-description_index">O expoziție virtuală a uniformelor militare din perioada RSR</p>
         <nav>
-            <a href="evenimente.html">Evenimente</a>
-            <a href="gallery.html">Colecție</a>
-            <a href="contact.html">Contact</a>
+            <a href="evenimente.html" id="nav-events">Evenimente</a>
+            <a href="gallery.html" id="nav-gallery">Colecție</a>
+            <a href="contact.html" id="nav-contact">Contact</a>  
         </nav>
+
+        <div class="language-selector">
+          <select id="language-selector" onchange="changeLanguage()">
+            <option value="ro" selected>Română</option>
+            <option value="en">English</option>
+          </select>
+        </div>
     </header>
+
     <main>
         <section>
-            <h2>Bun venit!</h2>
-            <p>
+            <h2 id="welcome-title_index">Bun venit!</h2>
+            <p id="welcome-description_index">
               Acest site este dedicat pasiunii mele pentru colecționarea uniformelor militare românești din 
               perioada 1965-1989. Scopul acestui proiect este de a conserva o parte a istoriei și
               de a vă oferi informații detaliate despre uniformologia Armatei Române în perioada comunistă.
@@ -34,11 +39,11 @@
               mai bine o epocă istorică ce merită cunoscută.
             </p>
             <img src="assets/DespreMineCool.jpg" alt="reconstituirea stagiului militar" class="section-image">
-            <p> 
+            <p id="about-me-description_index">
               Acesta sunt eu în 2022. Acum sunt elev în clasa a XII-a la Colegiul Național „Silvania” din Zalău, județul Sălaj, 
               iar pasiunea mea pentru colecționarea uniformelor militare a început încă din gimnaziu. 
               Sursa pasiunii a fost dragul de istorie și curiozitatea despre viața militară.
-          </p>
+            </p>
         </section>
     </main>
 
@@ -46,9 +51,9 @@
     <div id="eventModal" class="modal" style="display: none;">
       <div class="modal-content">
         <span class="close-button" onclick="closeModal()">&times;</span>
-          <h2>Expozitie pe 1 Decembrie!</h2>
-          <p>Nu rata expoziția prin care particip, pe data de 1 Decembrie 2024, la sărbătorirea zilei naționale! Voi fi prezent pe platou in partea din fața prefecturii, de la ora 12:00. </p>
-          <button onclick="closeModal()">Super!</button>
+        <h2 id="modal-title">Expozitie pe 1 Decembrie!</h2>
+        <p id="modal-description">Nu rata expoziția prin care particip, pe data de 1 Decembrie 2024, la sărbătorirea zilei naționale! Voi fi prezent pe platou in partea din fața prefecturii, de la ora 12:00 la 16:00. </p>
+        <button onclick="closeModal()">Super!</button>
       </div>
     </div>
 
@@ -57,5 +62,6 @@
     </footer>
 
     <script src="sketch.js"></script>
+    <script src="language.js"></script>  <!-- Add language switching script -->
   </body>
 </html>

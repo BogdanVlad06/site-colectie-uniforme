@@ -13,28 +13,35 @@
 
   <body>
     <header>
-        <h1> Evenimente </h1>
+        <h1 id="header-title-events"> Evenimente </h1>
         <nav>
-            <a href="index.html">Despre mine</a>
-            <a href="gallery.html">Colecție</a>
-            <a href="contact.html">Contact</a>
+            <a id="nav-index" href="index.html">Despre mine</a>
+            <a id="nav-gallery" href="gallery.html">Colecție</a>
+            <a id="nav-contact" href="contact.html">Contact</a>
         </nav>
+
+        <div class="language-selector">
+            <select id="language-selector" onchange="changeLanguage()">
+              <option value="ro" selected>Română</option>
+              <option value="en">English</option>
+            </select>
+        </div>
     </header>
     <main>
-        <h1>Expunere publică</h1>
+        <h1 id="events-header-title">Expunere publică</h1>
         <section>
             <!-- Oradea festiFall 2023 -->
             <div>
-                <h1 class ="indent">Oradea FestiFall 2023</h1>
-                <p> 
+                <h1 id="event1-title" class ="indent">Oradea FestiFall 2023</h1>
+                <p id="event1-description"> 
                     Spre sfârșitul anului 2023, în luna octombrie, am avut ocazia de a participa în cadrul <strong style="color:rgb(194, 224, 250)">Zilelor Oradiei</strong> la o expoziție organizată în curtea Muzeului Țării Crișurilor. Acest eveniment a marcat prima mea participare la expunerea unei părți din colecția mea într-un oraș de referință din Nord-Vestul României.
                 </p>
                 <img src="assets/eventsImages/CTMO 2023.jpeg" class ="section-image">
             </div>
             <!-- 1 dec 2023 -->
             <div>
-                <h1 class ="indent">1 Decembrie 2023</h1>
-                <p>
+                <h1 id="event2-title" class ="indent">1 Decembrie 2023</h1>
+                <p  id="event2-description">
                     Cu ocazia Zilei Naționale a României, am avut plăcerea de a participa alături de 
                     <a href="https://www.facebook.com/share/p/1DHJHkb4g2/"target="_blank" rel="noopener noreferrer">
                         <strong style="text-decoration: underline;"> Muzeul Județean de Istorie și Artă Zalău</strong>
@@ -45,8 +52,8 @@
             </div>
             <!-- 23 August 2021 -->
             <div>
-                <h1 class ="indent">Reconstituire 23 August 2021</h1>
-                <p>
+                <h1 id="event3-title" class ="indent">Reconstituire 23 August 2021</h1>
+                <p id="event3-description">
                     Pentru a comemora "Actul de la 23 August", anume întoarcerea armelor împotriva Axei, am avut onoarea de a participa la o reconstituire a sărbătorii naționale în perioada Republicii Socialiste Române.
                     Am desfășurat activitatea în cadrul grupului 
                     <a href="https://www.facebook.com/share/p/14t5XoG8Mh/" target="_blank" rel="noopener noreferrer">
@@ -68,7 +75,7 @@
         <div class="modal-content">
             <span class="close-button" onclick="closeModal()">&times;</span>
             <h2>Expozitie pe 1 Decembrie!</h2>
-            <p>Nu rata expoziția prin care particip, pe data de 1 Decembrie 2024, la sărbătorirea zilei naționale! Voi fi prezent pe platou in partea din fața prefecturii, de la ora 12:00. </p>
+            <p>Nu rata expoziția prin care particip, pe data de 1 Decembrie 2024, la sărbătorirea zilei naționale! Voi fi prezent pe platou in partea din fața prefecturii, de la ora 12:00 la 16:00. </p>
             <button onclick="closeModal()">Super!</button>
         </div>
       </div>
@@ -78,5 +85,6 @@
     </footer>
 
     <script src="sketch.js"></script>
+    <script src="language.js"></script>
   </body>
 </html>

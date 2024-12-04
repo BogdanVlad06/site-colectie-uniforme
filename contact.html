@@ -10,24 +10,32 @@
     <header>
         <h1>Contact</h1>
         <nav>
-            <a href="index.html">Despre mine</a>
-            <a href="evenimente.html">Evenimente</a>
-            <a href="gallery.html">Colecție</a>
+            <a href="index.html" id="nav-index">Despre mine</a>
+            <a href="evenimente.html" id="nav-events">Evenimente</a>
+            <a href="gallery.html" id="nav-gallery">Colecție</a>
         </nav>
+
+        <div class="language-selector">
+            <select id="language-selector" onchange="changeLanguage()">
+              <option value="ro" selected>Română</option>
+              <option value="en">English</option>
+            </select>
+        </div>
     </header>
     <main>
         <section>
-            <h2>Informații contact</h2>
-            <p>Pentru colaborări sau propuneri, mă puteți contacta prin:</p>
+            <h2 id="contactH2">Informații contact</h2>
+            <p id="contactD2">Pentru colaborări sau propuneri, mă puteți contacta prin:</p>
             <p><a href="mailto:guraubogdanvlad@gmail.com" target="_blank" rel="noopener noreferrer">guraubogdanvlad@gmail.com</a></p>
 
-            <h3>Urmărește-mă pe rețelele sociale</h3>
-            <p>Profil de Instagram:</p>
+            <h3 id="contactH3">Urmărește-mă pe rețelele sociale</h3>
+            <p id="contactD3">Profil de Instagram:</p>
             <p><a href="https://www.instagram.com/amintiri_din_armata_1985/" target="_blank" rel="noopener noreferrer">amintiri_din_armata_1985</a></p>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Gurău Bogdan-Vlad</p>
     </footer>
+    <script src="language.js"></script>
 </body>
 </html>

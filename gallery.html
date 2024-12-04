@@ -8,33 +8,41 @@
 </head>
 <body>
     <header>
-        <h1>Colecție</h1>
+        <h1 id = "nav-gallery">Colecție</h1>
         <nav>
-            <a href="index.html">Despre mine</a>
-            <a href="evenimente.html">Evenimente</a>
-            <a href="contact.html">Contact</a>
+            <a id="nav-index" href="index.html">Despre mine</a>
+            <a id="nav-events" href="evenimente.html">Evenimente</a>
+            <a id="nav-contact" href="contact.html">Contact</a>
         </nav>
+
+        <div class="language-selector">
+            <select id="language-selector" onchange="changeLanguage()">
+              <option value="ro" selected>Română</option>
+              <option value="en">English</option>
+            </select>
+        </div>
     </header>
     <main>
         <section>
-            <h2>Colecția mea:</h2>
-            <p>Apasă pe imagini pentru a vedea descrierea</p>
+            <h2 id= "header-title-gallery">Colecția mea:</h2>
+            <p id="header-description-gallery">Apasă pe imagini pentru a vedea descrierea</p>
             <div class="gallery">
                 <!-- imaginea 1 Col Para -->
                 <div class="item">
                     <img src="assets/galleryImages/ColAviatie.jfif" onclick="toggleDescription(this)">
-                    <p class ="description">
+                    <p class ="description" id="g1d" >
                         ▶Ținuta de oraș și serviciu a ofițerilor din unitățile de parașutiști,
                         din perioada RSR (1977 - 1989).
                         <br>▶Un element distinctiv este culoarea stofei din care este confecționată uniforma: 
                         albastru-petrol; de asemenea, emblema pentru coifură este diferită de cea a forțelor terestre.
                         </p>
-                    <p>Uniforma ofițer parașutist, cu grad de colonel</p>
+                    <p id ="g1t">Uniforma ofițer parașutist, cu grad de colonel</p>
                 </div>
-                <!-- img 2 MT para-->
+                
+                <!-- img 2 MT para -->
                 <div class="item">
                     <img src="assets/galleryImages/mtParaVara.jfif" onclick="toggleDescription(this)">
-                    <p class ="description">
+                    <p class ="description" id="g2d">
                         ▶Ținuta de oraș și serviciu a militarilor din unitățile de parașutiști, din perioada RSR (1977 - 1989). 
                         Unitățile de parașutiști au rolul de a desfășura operații speciale cu sprijinul celorlalte forțe.
                         <br>▶Specific parașutiștilor militari este:
@@ -42,22 +50,22 @@
                         <br>●centura neagră cu ham
                         <br>●basca albastră
                     </p>
-                    <p>Uniforma de vară soldat parașutist</p>
+                    <p id="g2t">Uniforma de vară soldat parașutist</p>
                 </div>
                 <!-- img 3  MT aviatie-->
                 <div class="item">
                     <img src="assets/galleryImages/mtAviatieIarna.jfif" onclick="toggleDescription(this)">
-                    <p class ="description">
+                    <p class ="description" id="g3d">
                         ▶Ținuta de serviciu a militarilor din unitățile de aviație (paza aeroport), 
                         din perioada RSR (1977 - 1989). Unitățile de aviație au rolul de a apăra aeroportul și bazele aeriene.
                         <br>▶Elementul distinctiv față de forțele terestre este culoarea postavului din care este confecționată uniforma: albastru-petrol.
                     </p>
-                    <p>Uniforma de iarnă caporal aviație</p>
+                    <p id="g3t">Uniforma de iarnă caporal aviație</p>
                 </div>
                 <!-- img 4 MT marina-->
                 <div class="item">
                     <img src="assets/galleryImages/mtMarinaAlb.jfif" onclick="toggleDescription(this)">
-                    <p class ="description">
+                    <p class ="description" id="g4d">
                         ▶Ținuta de oraș și serviciu a militarilor forțelor navale, din perioada RSR (1964 - 1989).
                         <br>▶Specific marinei militare este:
                         <br>●centura neagră
@@ -65,18 +73,18 @@
                         <br>●gulerul marinăresc albastru
                         <br>●bluza albă cu dungi albastre
                     </p>
-                    <p>Uniforma de vară militar forțele navale</p>
+                    <p id="g4t">Uniforma de vară militar forțele navale</p>
                 </div>
                 <!-- img 5 Cerem bleu-->
                 <div class="item">
                     <img src="assets/galleryImages/maiorTancuriCerem.jfif" onclick="toggleDescription(this)">
-                    <p class ="description">
+                    <p class ="description" id="g5d">
                         ▶Ținuta de ceremonie a ofițerilor din perioada RSR, forțele terestre, din perioada 1974 - 1989, ținuta bleumarin:
                         <br>●Modelul de bază al ținutei a fost introdus în anul 1963, cu destinația de a fi purtată la: evenimente sociale cum ar fi vizionarea la cinematograf, la teatru, participarea la dineuri sau alte „activități tovărășești”; ceremonii. Efectele de ceremonie până la începutul anilor 1970 au fost constituite doar din centura de ceremonie purtată la ordin, însă apoi a fost introdus eghiletul obligatoriu și stiletul, purtat facultativ
                         <br>●Ea se poartă doar cu pantaloni de pantof și cu pantofi negri
                         <br>●Alte accesorii pot fi: insigna de academie militară, insigna de specialitate, barete pentru decorații, medalii și ordine.
                     </p>
-                    <p>Uniforma ceremonie ofițer maior de tancuri și mecanizate</p>
+                    <p id="g5t">Uniforma ceremonie ofițer maior de tancuri și mecanizate</p>
                 </div>
                 <!-- img 6 Cerem kaki-->
                 <div class="item">
@@ -152,5 +160,6 @@
     </footer>
     
     <script src="sketch.js"></script>
+    <script src="language.js"></script>
 </body>
 </html>

@@ -41,6 +41,20 @@ header nav a {
 header nav a:hover {
   background: #555;
 }
+/* language! */
+.language-selector {
+  position: absolute; /* Allows precise positioning */
+  top: 10px;         /* Distance from the top of the page */
+  right: 10px;       /* Distance from the right of the page */
+}
+
+#language-selector {
+  margin-left: 20px;
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
 /* Responsive: Vertical Navigation (Smaller Screens) */
 @media (max-width: 768px) { /* Adjust breakpoint if needed */
   header nav {
@@ -174,4 +188,15 @@ footer {
   font-size: 28px;
   font-weight: bold;
   cursor: pointer;
+}
+
+/* Add a fade-out effect to elements */
+.fade {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+/* When an element has the fade-out class, it will fade out */
+.fade.fade-out {
+  opacity: 0;
 }
