@@ -23,7 +23,9 @@ const translations = {
         event2Description: "Cu ocazia Zilei Naționale a României, am avut plăcerea de a participa alături de <a href='https://www.facebook.com/share/p/1DHJHkb4g2/' target='_blank' rel='noopener noreferrer'><strong style='text-decoration: underline;'> Muzeul Județean de Istorie și Artă Zalău</strong></a> cu o mică prezentare a câtorva efecte militare. Chiar dacă condițiile meteo au fost nefavorabile, am purtat cu respect uniforma greoaie a militarului în termen din perioada RSR, dornic să reprezint militarii trecutului.",
         event3Title: "Reconstituire 23 August 2021",
         event3Description: "Pentru a comemora 'Actul de la 23 August', anume întoarcerea armelor împotriva Axei, am avut onoarea de a participa la o reconstituire a sărbătorii naționale în perioada Republicii Socialiste Române. Am desfășurat activitatea în cadrul grupului <a href='https://www.facebook.com/share/p/14t5XoG8Mh/' target='_blank' rel='noopener noreferrer'><strong><em>'România la arme'</em></strong></a> și alături de <a href='https://www.facebook.com/profile.php?id=100064880732676' target='_blank' rel='noopener noreferrer'><strong style='text-decoration: underline;'> Expoziția permanentă „Pașii României prin socialism și democrație” din Hunedoara</strong></a>, organizator al evenimentului.",
-    //---------------------- GALLERY ---------------------
+        event4Title: "1 Decembrie 2024",
+        event4Description: "Ca anul trecut, am avut plăcerea de a organiza, alături de <a href='https://www.facebook.com/share/p/1DHJHkb4g2/' target='_blank' rel='noopener noreferrer'><strong style='text-decoration: underline;'> Muzeul Județean de Istorie și Artă Zalău</strong></a>, o expozitie pe platoul din fața prefecturii din Zalău pentru a sărbători Ziua Națională. Am prezentat cinci ținute: uniformă ceremonie ofițer maior mechanizate, uniforme serviciu ofițer locotenent intendență si infanterie, un costum de mascare și ținuta de iarnă a militarului în termen; și două vitrine: una cu accesori de ofițer si una cu echipament de soldat.",
+        //---------------------- GALLERY ---------------------
         headerTitleGallery: "Colecția mea",
         headerDescriptionGallery: "Apasă pe imagini pentru a vedea descrierea",
         item1T: "Uniforma ofițer parașutist, cu grad de colonel",
@@ -91,7 +93,9 @@ const translations = {
         event2Description: "On the occasion of Romania's National Day, I had the pleasure of participating alongside <a href='https://www.facebook.com/share/p/1DHJHkb4g2/' target='_blank' rel='noopener noreferrer'><strong style='text-decoration: underline;'>Muzeul Județean de Istorie și Artă Zalău</strong></a> with a small display of some military effects. Despite unfavorable weather conditions, I respectfully wore the heavy uniform of a conscript soldier from the RSR period, eager to represent the soldiers of the past.",
         event3Title: "Reenactment of August 23rd, 2021",
         event3Description: "To commemorate the 'Act of August 23rd,' namely the turning of arms against the Axis, I had the honor of participating in a reenactment of the national holiday during the Socialist Republic of Romania period. I carried out the activity within the group <a href='https://www.facebook.com/share/p/14t5XoG8Mh/' target='_blank' rel='noopener noreferrer'><strong><em>'Romania at Arms'</em></strong></a> and alongside <a href='https://www.facebook.com/profile.php?id=100064880732676' target='_blank' rel='noopener noreferrer'><strong style='text-decoration: underline;'>The permanent exhibition 'Romania's Steps through Socialism and Democracy' in Hunedoara</strong></a>, the event organizer.",
-    //---------------------- GALLERY -------------------------------
+        event4Title: "December 1st, 2024",
+        event4Description: "Like last year, I had the pleasure of organizing an exhibition, alongside the <a href='https://www.facebook.com/share/p/1DHJHkb4g2/' target='_blank' rel='noopener noreferrer'><strong style='text-decoration: underline;'> County Museum of History and Art in Zalău</strong></a>, held on the square in front of the prefecture in Zalău, to celebrate National Day. I showcased five outfits: a ceremonial uniform for a mechanized major officer, service uniforms for a logistics lieutenant and infantry officer, a camouflage suit, and a winter uniform for a conscript soldier. Additionally, I presented two display cases: one featuring officer accessories and another with soldier equipment.",
+        //---------------------- GALLERY -------------------------------
         headerTitleGallery: "My Collection",
         headerDescriptionGallery: "Click on the images to see the description",
         item1T: "Paratrooper officer uniform, Colonel rank",
@@ -185,7 +189,9 @@ const translations = {
             { id: "event2-title", key: "event2Title" },
             { id: "event2-description", key: "event2Description", innerHTML: true },
             { id: "event3-title", key: "event3Title" },
-            { id: "event3-description", key: "event3Description", innerHTML: true }
+            { id: "event3-description", key: "event3Description", innerHTML: true },
+            { id: "event4-title", key: "event4Title" },
+            { id: "event4-description", key: "event4Description", innerHTML: true }
         ];
 
         eventIds.forEach(({ id, key, innerHTML }) => {
