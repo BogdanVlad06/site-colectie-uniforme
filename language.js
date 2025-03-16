@@ -63,7 +63,19 @@ const translations = {
 
         item12T: "Uniforma de vară fruntaș vânător de munte",
         item12D: "▶Prezentarea ținutei de oraș și serviciu a militarilor din unitățile de vânători de munte, din perioada RSR (1965 - 1989).<br>Decorat cu insigna de militar de frunte și insigna de specialitate alpinist militar clasa a 3-a.",
-    //---------------------- CONTACT ---------------------
+        
+        item13T: "Ţinuta de serviciu a unui colonel de grăniceri",
+        item13D: "▶Ținuta de oraș și serviciu a ofițerilor din perioada RSR, din perioada 1974 - 1989: <br>●Ea se poate purta atât cu pantaloni de pantof cât și cu pantaloni de cizmă<br>●Accesorii pot fi: insigna de academie militară, insigna de specialitate și barete pentru decorații",
+
+        item14T: "Costumul de camuflaj de vară al unui militar grănicer",
+        item14D: "Costumul de camuflaj de vară al militarilor din unitățile de grăniceri, din perioada RSR (mijlocul anilor '80 - 1989):<br>●Era destinat misiunilor de patrulare și supraveghere la frontieră<br>●Model inspirat din echipamentele de camuflaj DPM",
+
+        item15T: "Ţinuta de serviciu a unei locotenente de intendenta",
+        item15D: "▶Prezentarea ținutei de oraș și serviciu a doamnelor ofițerese din perioada RSR, din anii 1974 - 1989: <br>●Ea se poate purta atât cu fustă, cât și cu pantaloni de pantof sau pantaloni de cizmă <br>●Este caracterizată prin croiala specific feminină: nasturii așezați pe partea stângă și croiul adaptat pentru conformația bustului",
+
+        item16T: "Prezentarea semnelor de armă ale forțelor armate din perioada RSR",
+        item16D: "În imagine sunt ilustrate 15 semne de armă, fiecare reprezentând o categorie distinctă de specializare militară: <br><br> <span style= \"display: inline-block; width: 25%; text-align: left;\"> ▶ 1️⃣ Infanterie <br>▶ 2️⃣ Ingineri <br>▶ 3️⃣ Tancuri <br>▶ 4️⃣ Trupe Chimice <br>▶ 5️⃣ Auto <br> </span> <span style= \"display: inline-block; width: 25%; text-align: left;\"> ▶ 6️⃣ Grăniceri <br>▶ 7️⃣ Radiolocație <br>▶ 8️⃣ Artilerie <br>▶ 9️⃣ Geniu <br>▶ 🔟 Tehnice <br> </span> <span style= \"display: inline-block; width: 28%; text-align: left;\"> ▶ 11. Intendență <br>▶ 12. Medicină / Veterinară <br>▶ 13. Vânători de munte <br>▶ 14. Muzici militare <br>▶ 15. Aviație <br> </span> <br><br> Aceste semne erau purtate pe uniformele militarilor pentru a indica arma și specializarea acestora.",
+        //---------------------- CONTACT ---------------------
         contactH2: "Informații contact",
         contactD2: "Pentru colaborări sau propuneri, mă puteți contacta prin:",
         contactH3: "Urmărește-mă pe rețelele sociale",
@@ -133,6 +145,18 @@ const translations = {
             
         item12T: "Summer uniform, Senior Private, Mountain Troops",
         item12D: "▶City and service uniform for soldiers in mountain troops units during the RSR period (1965 - 1989).<br>Decorated with a 'Frontline Soldier' insignia and 'Military Climber Class 3' specialty insignia.",
+    
+        item13T: "City and service attire of a border guard colonel",
+        item13D: "▶ Presentation of the city and service attire of officers from the RSR period, from 1974 - 1989: <br>●It can be worn with both shoe pants and boot pants<br>●Accessories can be: military academy badge, specialty badge, and barrettes for decorations",
+
+        item14T: "Summer camouflage suit of a border guard soldier",
+        item14D: "▶ The summer camouflage suit of the soldiers from the border guard units, from the RSR period (mid '80 - 1989): <br>●It was designed for patrol and border surveillance missions<br>●Model inspired by DPM camouflage",
+
+        item15T: "City outfit of a female lieutenant quartermaster",
+        item15D: "▶ Presentation of the city and service attire of female officers from the RSR period, from 1974 - 1989: <br>●It can be worn with a skirt, shoe pants, or boot pants <br>●It is characterized by a feminine cut: buttons placed on the left side and tailoring adapted for the bust",
+
+        item16T: "Presentation of the branch insignia of the armed forces from the RSR period",
+        item16D: "The post illustrates 15 branch insignia, each representing a distinct category of military specialization: <br><br> <span style= \"display: inline-block; width: 25%; text-align: left;\"> ▶ 1️⃣ Infantry <br>▶ 2️⃣ Engineers <br>▶ 3️⃣ Tanks <br>▶ 4️⃣ Chemical Troops <br>▶ 5️⃣ Transports <br> </span> <span style= \"display: inline-block; width: 25%; text-align: left;\"> ▶ 6️⃣ Border Guards <br>▶ 7️⃣ Radar Surveillance <br>▶ 8️⃣ Artillery <br>▶ 9️⃣ Military Engineering <br>▶ 🔟 Technical Service <br> </span> <span style= \"display: inline-block; width: 28%; text-align: left;\"> ▶ 11. Quartermaster Corp <br>▶ 12. Medical / Veterinary <br>▶ 13. Mountain Hunters <br>▶ 14. Army musics <br>▶ 15. Aviation <br> </span> <br><br> These insignia were worn on military uniforms to indicate the soldier’s branch and specialization.",
     //---------------------- CONTACT ---------------------
         contactH2: "Contact Information",
         contactD2: "For collaborations or proposals, you can contact me through:",
@@ -231,7 +255,15 @@ const translations = {
             { id: "g11t", key: "item11T", innerHTML: false },
             { id: "g11d", key: "item11D", innerHTML: true },
             { id: "g12t", key: "item12T", innerHTML: false },
-            { id: "g12d", key: "item12D", innerHTML: true }
+            { id: "g12d", key: "item12D", innerHTML: true },
+            { id: "g13t", key: "item13T", innerHTML: false },
+            { id: "g13d", key: "item13D", innerHTML: true },
+            { id: "g14t", key: "item14T", innerHTML: false },
+            { id: "g14d", key: "item14D", innerHTML: true },
+            { id: "g15t", key: "item15T", innerHTML: false },
+            { id: "g15d", key: "item15D", innerHTML: true },
+            { id: "g16t", key: "item16T", innerHTML: false },
+            { id: "g16d", key: "item16D", innerHTML: true },
         ];
 
         galleryIds.forEach(({ id, key, innerHTML }) => {
